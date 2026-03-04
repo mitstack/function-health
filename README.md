@@ -22,10 +22,8 @@ Automated Playwright tests for:
 npm install
 npx playwright install
 
-## Run Test
+### Run Test
 npx playwright test
-
----
 
 ## Future Enhacement
 integrate with CI/CD pipeline by introducing the github.yml and design the cadence and workflows.
