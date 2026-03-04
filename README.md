@@ -1,7 +1,7 @@
 # Ezra — Playwright Automation (POM)
 
 ## What this repo contains
-### Part - 1:  Ezraa Booking Test Cases https://github.com/mitstack/function-health/blob/main/Ezra_Member_Test_Cases.xlsx
+### Part - 1:  Ezra's Booking Test Cases https://github.com/mitstack/function-health/blob/main/Ezra_Member_Test_Cases.xlsx
 
 ### Part - 2: Security Test Cases https://github.com/mitstack/function-health/blob/main/Answer2.md
 
