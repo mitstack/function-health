@@ -1,11 +1,11 @@
 # Ezra — Playwright Automation (POM)
 
 ## What this repo contains
-### Question - 1:  Manual Test Cases https://github.com/mitstack/function-health/blob/main/Ezra_Member_Test_Cases.xlsx
+### Part - 1:  Ezraa Booking Test Cases https://github.com/mitstack/function-health/blob/main/Ezra_Member_Test_Cases.xlsx
 
-### Question - 2: Assignment Answers https://github.com/mitstack/function-health/blob/main/Answer2.md
+### Part - 2: Security Test Cases https://github.com/mitstack/function-health/blob/main/Answer2.md
 
-### Question - 3: Automated Playwright tests for:
+### Part - 3: Automation Framework in Playwright (POM):
 1. Member sign-up (email/password flow)
 2. Booking an appointment (scan + location + slots)
 3. Payment flow (Stripe UI - shown as architecture; locators are placeholders)
