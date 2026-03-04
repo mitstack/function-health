@@ -22,13 +22,13 @@ Automated Playwright tests for:
 npm install
 npx playwright install
 
-### Run Test
+## Run Test
 npx playwright test
 
-### Future Enhacement
+## Future Enhacement
 integrate with CI/CD pipeline by introducing the github.yml and design the cadence and workflows.
 
-### Why these tests were chosen
+## Why these tests were chosen
 Sign-up/login: core entry gate; if broken, no member can do anything.
 Booking: primary workflow that drives scheduling and downstream operations.
 Payment: revenue-critical; high risk; must be reliable.
