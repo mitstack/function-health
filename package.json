@@ -1,0 +1,15 @@
+{
+  "name": "ezra-playwright-takehome",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright take-home: member sign-up, booking, payment, and privacy API authorization test",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "typescript": "^5.5.4"
+  }
+}
