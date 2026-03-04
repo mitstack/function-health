@@ -3,7 +3,7 @@
 ## What this repo contains
 Question - 1:  Manual Test Cases https://github.com/mitstack/function-health/blob/main/Ezra_Member_Test_Cases.xlsx
 
-Question -2: Assignment Answers 
+Question -2: Assignment Answers https://github.com/mitstack/function-health/blob/main/Answer2.md
 
 Question - 3: Automated Playwright tests for:
 1. Member sign-up (email/password flow)
