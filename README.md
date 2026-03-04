@@ -16,10 +16,10 @@ Automated Playwright tests for:
 3. Stripe payment fields use iframes, which may require additional handling in real automation environments.
 
 ## Why these tests were chosen
-Sign-up/login: core entry gate; if broken, no member can do anything.
-Booking: primary workflow that drives scheduling and downstream operations.
-Payment: revenue-critical; high risk; must be reliable.
-Privacy API test (BOLA/IDOR): highest severity because it protects PHI and enforces per-member isolation.
+1. Sign-up/login: core entry gate; if broken, no member can do anything.
+2. Booking: primary workflow that drives scheduling and downstream operations.
+3. Payment: revenue-critical; high risk; must be reliable.
+4. Privacy API test (BOLA/IDOR): highest severity because it protects PHI and enforces per-member isolation.
 
 ---
 
