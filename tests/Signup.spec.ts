@@ -6,5 +6,5 @@ test('Member can sign up (email/password flow)', async ({ page }) => {
   const signup = new SignupPage(page);
   await signup.goto();
 
-  await signup.signUp('Ashna', 'Gulani', env.memberEmail, env.memberPassword);
+  await signup.signUp('Ashna', 'Golani', env.memberEmail, env.memberPassword);
 });
