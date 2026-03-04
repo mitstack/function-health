@@ -15,6 +15,12 @@ Automated Playwright tests for:
 2. The privacy validation test is implemented at the API layer, since authorization checks are more reliable when tested directly through backend endpoints rather than UI flows.
 3. Stripe payment fields use iframes, which may require additional handling in real automation environments.
 
+## Why these tests were chosen
+Sign-up/login: core entry gate; if broken, no member can do anything.
+Booking: primary workflow that drives scheduling and downstream operations.
+Payment: revenue-critical; high risk; must be reliable.
+Privacy API test (BOLA/IDOR): highest severity because it protects PHI and enforces per-member isolation.
+
 ---
 
 ## Setup
@@ -33,8 +39,3 @@ npx playwright test
 ## Future Enhacement
 integrate with CI/CD pipeline by introducing the github.yml and design the cadence and workflows.
 
-## Why these tests were chosen
-Sign-up/login: core entry gate; if broken, no member can do anything.
-Booking: primary workflow that drives scheduling and downstream operations.
-Payment: revenue-critical; high risk; must be reliable.
-Privacy API test (BOLA/IDOR): highest severity because it protects PHI and enforces per-member isolation.
