@@ -28,6 +28,7 @@ export class MedicalDataApi {
       }
     );
   }
+  
 
   async expectForbiddenOrNotFound(response: any) {
     expect([403, 404]).toContain(response.status());
