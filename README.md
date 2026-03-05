@@ -3,7 +3,7 @@
 ## What this repo contains
 ### Part - 1:  Ezra's Booking Test Cases available to download from here : https://github.com/mitstack/function-health/blob/main/Ezra_Member_Test_Cases.xlsx
 
-### Part - 2: Security Test Cases available to donload from here : https://github.com/mitstack/function-health/blob/main/Answer2.md
+### Part - 2: Security Related Testing Doc : https://github.com/mitstack/function-health/blob/main/Answer2.md
 
 ### Part - 3: Automation Framework in Playwright (POM):
 1. Member sign-up (email/password flow)
